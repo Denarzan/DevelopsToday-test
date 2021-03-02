@@ -17,5 +17,7 @@ Django REST Framework based.
 ### Start API
 
 docker-compose build
+
 docker-compose run web python news/manage.py migrate
+
 docker-compose up
